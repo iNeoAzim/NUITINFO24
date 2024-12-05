@@ -4,7 +4,10 @@
   padding: 2rem;
   text-align: center;
 }
+:root {
+  --principal : #ffffff
 
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +42,9 @@
 
 .read-the-docs {
   color: #888;
+}
+
+
+.test {
+  color: var(--principal);
 }
