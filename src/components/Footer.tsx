@@ -1,9 +1,9 @@
-import React from 'react'
-
-export default function Footer() {
+const Footer: React.FC = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <footer>
+      <p>&copy; 2024 Sauvez la Mer. Tous droits réservés.</p>
+    </footer>
+  );
+};
+
+export default Footer;

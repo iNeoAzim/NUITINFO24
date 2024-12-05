@@ -1,11 +1,14 @@
-import React from 'react'
-import "../assets/style/header.css"
-
-
-export default function Header() {
+const Header: React.FC = () => {
   return (
-    <div>
-       NIQUE TA MER 
-    </div>
-  )
-}
+    <header>
+      <h1>Sauvez la Mer</h1>
+      <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#a-propos">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+  );
+};
+
+export default Header;
